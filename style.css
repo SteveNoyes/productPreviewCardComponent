@@ -2,23 +2,83 @@
 - Desktop: 1440px */
 
 /* Colors */
-
-/* Primary */
-/* - Dark cyan: hsl(158, 36%, 37%)
-- Cream: hsl(30, 38%, 92%) */
-
-/* Neutral */
-
-/* - Very dark blue: hsl(212, 21%, 14%)
-- Dark grayish blue: hsl(228, 12%, 48%)
-- White: hsl(0, 0%, 100%) */
-
-/* - Font size (paragraph): 14px */
+:root {
+  --primary-dark-cyan: hsl(158, 36%, 37%);
+  --primary-cream: hsl(30, 38%, 92%);
+  --neutral-very-dark-blue: hsl(212, 21%, 14%);
+  --neutral-dark-grayish-blue: hsl(228, 12%, 48%);
+  --neutral-white: hsl(0, 0%, 100%);
+}
 
 /* Fonts */
-/* - Family: [Montserrat](https://fonts.google.com/specimen/Montserrat)
-- Weights: 500, 700
+body {
+  font-size: 14px;
+  background-color: var(--primary-cream);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
 
-- Family: [Fraunces](https://fonts.google.com/specimen/Fraunces)
-- Weights: 700
- */
+ /* font-family: 'Fraunces', serif; 700
+font-family: 'Montserrat', sans-serif; 500 700 */
+
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 90%;
+  margin-top: 2rem;
+  background-color: var(--neutral-white);
+  border-radius: 15px;
+}
+
+.perfume-image {
+  width: 100%;
+  border-radius: 15px 15px 0 0;
+}
+
+.container h2 {
+
+}
+
+.container h1 {
+
+}
+
+.container p {
+
+}
+
+.prices {
+
+} 
+
+.current-price {
+
+}
+
+.old-price {
+
+}
+
+button {
+
+}
+
+.attribution {
+  margin-top: auto;
+}
+
+#search-button {
+  width: 100px;
+  height: 50px;
+}
+    
+#search-button svg {
+  width: 25px;
+  height: 25px;
+}

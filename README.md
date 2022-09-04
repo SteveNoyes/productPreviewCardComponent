@@ -33,10 +33,9 @@ Users should be able to:
 
 ### Built with
 
-- Semantic HTML5 markup
-- CSS custom properties
+- HTML5 with a little help from Emmet
+- CSS 
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
 
 ### What I learned
@@ -65,10 +64,11 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ### Useful resources
 
-[The Markdown Guide](https://www.markdownguide.org/) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
+- [The Markdown Guide](https://www.markdownguide.org/) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
 
 - [Reset CSS](https://meyerweb.com/eric/tools/css/reset/) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
 
+- [Stick to Bottom](https://dev.to/nehalahmadkhan/how-to-make-footer-stick-to-bottom-of-web-page-3i14) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
 
 ## Author
 
