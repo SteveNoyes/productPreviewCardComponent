@@ -33,14 +33,14 @@ Users should be able to:
 
 ### Built with
 
-- HTML5 with a little help from Emmet
+- HTML5 with help from Emmet
 - CSS 
 - Flexbox
 - Mobile-first workflow
 
 ### What I learned
 
-vertical-align: middle; That's something I learned. 
+vertical-align: middle; 
 It took a long time to find out how to center text next
 to text. 
 
