@@ -11,6 +11,8 @@
 }
 
 /* Fonts */
+/* font-family: 'Fraunces', serif; 700
+font-family: 'Montserrat', sans-serif; 500 700 */
 body {
   font-size: 14px;
   background-color: var(--primary-cream);
@@ -18,10 +20,6 @@ body {
   flex-direction: column;
   min-height: 100vh;
 }
-
- /* font-family: 'Fraunces', serif; 700
-font-family: 'Montserrat', sans-serif; 500 700 */
-
 
 .wrapper {
   display: flex;
@@ -42,7 +40,7 @@ font-family: 'Montserrat', sans-serif; 500 700 */
 }
 
 .text-wrapper {
-  margin: 1rem;
+  margin: 1.5rem;
 }
 
 .container h2 {
@@ -50,6 +48,8 @@ font-family: 'Montserrat', sans-serif; 500 700 */
 }
 
 .container h1 {
+  font-family: 'Fraunces', sans-serif;
+  font-weight: 700;
   letter-spacing: 1px;
   word-spacing: 1px;
 }
@@ -63,7 +63,11 @@ font-family: 'Montserrat', sans-serif; 500 700 */
 } 
 
 .current-price {
-  font-family: 'Fraunces', serif;
+  font-family: 'Fraunces', sans-serif;
+  color: var(--primary-dark-cyan);
+  font-size: 2.3rem;
+  margin-right: 2rem;
+  vertical-align: middle;
 }
 
 .old-price {
@@ -79,28 +83,29 @@ button {
   width: 100%;
 }
 
-.imi-btn {
+button:hover {
+  cursor: pointer;
+}
+
+.btn {
   text-align: center;
+  font-family: 'Fraunces', sans-serif;
+  font-weight: 700;
   background-color: var(--primary-dark-cyan);
   border: 1px solid transparent;
   padding: 0 15px;
-  height: 32px;
-  color: #fff;
-  border-radius: 4px;
+  height: 42px;
+  color: var(--neutral-white);
+  border-radius: 7px;
   display: flex;
-  cursor: pointer;
   transition: 0.5s;
-  
   outline: none;
 }
 
-.imi-icon {
-  /* vertical-align: -0.05em; */
-  cursor: pointer;
+.icon {
+  vertical-align: -0.2em;
   display: inline-flex;
-  margin-right: 5px;
-  width: 17px;
-  height: 17px;
+  margin-right: 10px;
 }
 
 .attribution {

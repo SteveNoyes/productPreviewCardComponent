@@ -40,21 +40,27 @@ Users should be able to:
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+vertical-align: middle; That's something I learned. 
+It took a long time to find out how to center text next
+to text. 
 
 To see how you can add code snippets, see below:
 
 ```html
-<h1>Some HTML code I'm proud of</h1>
+<div class="prices">
+  <p>
+    <span class="current-price">$149.99</span>
+    <span class="old-price">$169.99</span>
+  </p>
+</div>
 ```
 ```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
+.current-price {
+  font-family: 'Fraunces', sans-serif;
+  color: var(--primary-dark-cyan);
+  font-size: 2.3rem;
+  margin-right: 2rem;
+  vertical-align: middle;
 }
 ```
 
