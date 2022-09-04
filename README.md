@@ -1,6 +1,5 @@
-This is a solution to the [Product preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa)
-
 ## Table of contents
+
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
@@ -13,17 +12,20 @@ This is a solution to the [Product preview card component challenge on Frontend 
 - [Author](#author)
 
 ## Overview
-
+  This is a solution to the [Product preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa)
 ### The challenge
+
 Users should be able to:
 
 - View the optimal layout depending on their device's screen size
 - See hover and focus states for interactive elements
 
 ### Screenshot
+
 ![](./screenshot.jpg)
 
 ### Links
+
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
 - Live Site URL: - [GitHub Pages](https://pages.github.com/)
 
@@ -65,10 +67,11 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 [The Markdown Guide](https://www.markdownguide.org/) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [Reset CSS](https://meyerweb.com/eric/tools/css/reset/) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
+
 
 ## Author
+
 - Website - [Steven Noyes](https://www.stevenmnoyes.com)
 - Frontend Mentor - [@SteveNoyes](https://www.frontendmentor.io/profile/SteveNoyes)
 - LinkedIn - [Steven Noyes](https://www.linkedin.com/in/steven-noyes/)
