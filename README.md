@@ -70,6 +70,8 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 - [Stick to Bottom](https://dev.to/nehalahmadkhan/how-to-make-footer-stick-to-bottom-of-web-page-3i14) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
 
+- [Text & Word Spacing](https://www.w3schools.com/css/css_text_spacing.asp) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
+
 ## Author
 
 - Website - [Steven Noyes](https://www.stevenmnoyes.com)

@@ -41,44 +41,40 @@ font-family: 'Montserrat', sans-serif; 500 700 */
   border-radius: 15px 15px 0 0;
 }
 
-.container h2 {
+.text-wrapper {
+  margin: 1rem;
+}
 
+.container h2 {
+  letter-spacing: 5px;
 }
 
 .container h1 {
-
+  letter-spacing: 1px;
+  word-spacing: 1px;
 }
 
 .container p {
-
+  word-spacing: 1px;
 }
 
 .prices {
-
+  letter-spacing: .5px;
 } 
 
 .current-price {
-
+  font-family: 'Fraunces', serif;
 }
 
 .old-price {
-
+  text-decoration: line-through;
 }
 
 button {
-
+ width: 100%
 }
 
 .attribution {
   margin-top: auto;
-}
-
-#search-button {
-  width: 100px;
-  height: 50px;
-}
-    
-#search-button svg {
-  width: 25px;
-  height: 25px;
+  font-size: 10px;
 }
