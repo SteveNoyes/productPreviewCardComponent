@@ -1,5 +1,5 @@
 This is a solution to the [Product preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa)
-[![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
+
 ## Table of contents
 - [Overview](#overview)
   - [The challenge](#the-challenge)
