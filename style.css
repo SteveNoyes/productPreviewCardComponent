@@ -70,28 +70,6 @@ font-family: 'Montserrat', sans-serif; 500 700 */
   text-decoration: line-through;
 }
 
-/* button {
-  padding:0;
-  border: 1px solid #000;
-  border-radius: 5px;
-  width: 100%;
-  box-sizing: border-box;
-  background-color: var(--primary-dark-cyan);
-  align-items: center;
-} */
-
-/* svg {
-  background-color: var(--primary-dark-cyan);
-  color: var(--neutral-white);
-} */
-
-.attribution {
-  margin-top: auto;
-  font-size: 10px;
-}
-
-
-
 button {
   margin-right: 6px;
   margin-bottom: 6px;
@@ -104,7 +82,7 @@ button {
 .imi-btn {
   text-align: center;
   background-color: var(--primary-dark-cyan);
-  border: 1px solid red;
+  border: 1px solid transparent;
   padding: 0 15px;
   height: 32px;
   color: #fff;
@@ -125,16 +103,7 @@ button {
   height: 17px;
 }
 
-.btn-wrapper {
-  background-color: var(--primary-dark-cyan);
-  width: 100%;
-  text-align: center;
-  border: 1px solid black;
-  padding: 4px 2px;
-  margin-right: 20px;
-  display: inline-block;
-}
-.btn-wrapper svg {
-  display: inline-block;
-   vertical-align: middle;
+.attribution {
+  margin-top: auto;
+  font-size: 10px;
 }
