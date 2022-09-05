@@ -38,6 +38,7 @@ Users should be able to:
 - Flexbox
 - Mobile-first workflow
 - VSCode
+- Google
 
 ### What I learned
 
@@ -88,6 +89,26 @@ After setting up the container, it took some time to position them beside each o
 }
 ```
 
+The color on hover for the 'add to cart' button looked different than the ones provided so I put the image on an html page and used a color picker app
+
+
+```css
+:root {
+  --active-dark-cyan: 	hsl(156, 42%, 18%);
+}
+```
+ 
+Changing image on media query
+
+```html
+  <img class="perfume-image"/>
+```
+```css
+  .perfume-image {
+    content:url('./img/image-product-desktop.jpg');
+  }
+```
+
 ### Continued development
 
 Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
@@ -101,6 +122,8 @@ Use this section to outline areas that you want to continue focusing on in futur
 - [Stick to Bottom](https://dev.to/nehalahmadkhan/how-to-make-footer-stick-to-bottom-of-web-page-3i14) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
 
 - [Text & Word Spacing](https://www.w3schools.com/css/css_text_spacing.asp) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
+
+- [Changing Image at Media Query](https://stackoverflow.com/questions/2182716/is-it-possible-to-set-the-equivalent-of-a-src-attribute-of-an-img-tag-in-css) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
 
 ## Author
 

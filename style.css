@@ -2,7 +2,7 @@
 
 :root {
   --primary-dark-cyan: hsl(158, 36%, 37%);
-  --active-dark-cyan: #1a4031;
+  --active-dark-cyan: 	hsl(156, 42%, 18%);
   --primary-cream: hsl(30, 38%, 92%);
   --neutral-very-dark-blue: hsl(212, 21%, 14%);
   --neutral-dark-grayish-blue: hsl(228, 12%, 48%);
@@ -29,6 +29,10 @@ body {
   margin: 2rem auto 0;
   background-color: var(--neutral-white);
   border-radius: 15px;
+}
+
+.image-div {
+  width: 100%
 }
 
 .perfume-image {
@@ -124,28 +128,24 @@ button:hover {
 
 /* Mobile: 375px - Desktop: 1440px */
 @media (min-width: 1440px) {
+
   .container {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    /* width: 100%; */
-    margin: 2rem auto 0;
+    width: 40%;
+    margin: 4rem auto 0;
     background-color: var(--neutral-white);
     border-radius: 15px;
-  }
-  
-  .image-div {
-    flex: 1;
-    height: 100%;
   }
 
   .perfume-image {
     border-radius: 15px 0 0 15px;
+    content:url('./img/image-product-desktop.jpg');
   }
   
   .text-wrapper {
-    flex: 1;
     margin: 2rem;
   }
 }
