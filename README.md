@@ -63,6 +63,31 @@ to text.
 }
 ```
 
+After setting up the container, it took some time to position them beside each other. Finally I used flex 1 for the two divs in the container.
+
+```css
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  margin: 2rem auto 0;
+  background-color: var(--neutral-white);
+  border-radius: 15px;
+}
+```
+```css
+.perfume-image {
+  flex: 1;
+  width: 100%;
+  border-radius: 15px 15px 0 0;
+}
+.text-wrapper {
+  flex: 1;
+  margin: 2rem;
+}
+```
+
 ### Continued development
 
 Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.

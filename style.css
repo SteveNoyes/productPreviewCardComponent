@@ -1,6 +1,3 @@
-/* - Mobile: 375px
-- Desktop: 1440px */
-
 /* Colors */
 
 :root {
@@ -23,15 +20,13 @@ body {
   min-height: 100vh;
 }
 
-.wrapper {
+.container {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-}
-
-.container {
   width: 90%;
-  margin-top: 2rem;
+  margin: 2rem auto 0;
   background-color: var(--neutral-white);
   border-radius: 15px;
 }
@@ -40,7 +35,6 @@ body {
   width: 100%;
   border-radius: 15px 15px 0 0;
 }
-
 
 .text-wrapper {
   margin: 2rem;
@@ -126,4 +120,32 @@ button:hover {
 .attribution {
   margin-top: auto;
   font-size: 10px;
+}
+
+/* Mobile: 375px - Desktop: 1440px */
+@media (min-width: 1440px) {
+  .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /* width: 100%; */
+    margin: 2rem auto 0;
+    background-color: var(--neutral-white);
+    border-radius: 15px;
+  }
+  
+  .image-div {
+    flex: 1;
+    height: 100%;
+  }
+
+  .perfume-image {
+    border-radius: 15px 0 0 15px;
+  }
+  
+  .text-wrapper {
+    flex: 1;
+    margin: 2rem;
+  }
 }
