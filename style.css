@@ -2,8 +2,10 @@
 - Desktop: 1440px */
 
 /* Colors */
+
 :root {
   --primary-dark-cyan: hsl(158, 36%, 37%);
+  --active-dark-cyan: #1a4031;
   --primary-cream: hsl(30, 38%, 92%);
   --neutral-very-dark-blue: hsl(212, 21%, 14%);
   --neutral-dark-grayish-blue: hsl(228, 12%, 48%);
@@ -40,26 +42,37 @@ body {
 }
 
 .text-wrapper {
-  margin: 1.5rem;
+  margin: 2rem;
 }
 
-.container h2 {
+.text-wrapper h2 {
+  font-family: sans-serif;
   letter-spacing: 5px;
+  padding-bottom: 1rem;
+  color: var(--neutral-dark-grayish-blue);
 }
 
-.container h1 {
+.text-wrapper h1 {
   font-family: 'Fraunces', sans-serif;
   font-weight: 700;
+  font-size: 2.4rem;
   letter-spacing: 1px;
   word-spacing: 1px;
+  padding-bottom: 2rem;
+  color: var(--neutral-very-dark-blue);
 }
 
-.container p {
-  word-spacing: 1px;
+.text-wrapper p {
+  line-height: 2;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
 }
 
 .prices {
   letter-spacing: .5px;
+  padding: 2rem 0 .6rem;
 } 
 
 .current-price {
@@ -85,6 +98,7 @@ button {
 
 button:hover {
   cursor: pointer;
+  background-color: var(--active-dark-cyan);
 }
 
 .btn {

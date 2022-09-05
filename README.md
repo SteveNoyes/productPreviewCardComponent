@@ -37,14 +37,13 @@ Users should be able to:
 - CSS 
 - Flexbox
 - Mobile-first workflow
+- VSCode
 
 ### What I learned
 
 vertical-align: middle; 
 It took a long time to find out how to center text next
 to text. 
-
-To see how you can add code snippets, see below:
 
 ```html
 <div class="prices">
