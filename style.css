@@ -1,7 +1,7 @@
 /* ------------ Fonts --------------- */
 /* Fraunces 700, Montserrat 500 700 */
 
-/* Colors */
+/* ----------- Colors --------------- */
 
 :root {
   --primary-dark-cyan: hsl(158, 36%, 37%);
@@ -56,10 +56,10 @@ body {
 .text-wrapper h1 {
   font-family: 'Fraunces', sans-serif;
   font-weight: 700;
-  font-size: 2.4rem;
+  font-size: 2rem;
   letter-spacing: 1px;
   word-spacing: 1px;
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
   color: var(--neutral-very-dark-blue);
 }
 
@@ -73,7 +73,7 @@ body {
 
 .prices {
   letter-spacing: .5px;
-  padding: 2rem 0 .6rem;
+  padding: .1rem 0 .6rem;
 } 
 
 .current-price {
@@ -138,14 +138,14 @@ button:hover {
     align-items: center;
     justify-content: center;
     margin: auto;
-    max-width: 600px;
+    max-width: 800px;
     background-color: var(--neutral-white);
     border-radius: 15px;
   }
 
   .image-div {
-    height: 545px;
-    width: 400px;
+    height: 500px;
+    width: 450px;
     background-image: url(./img/image-product-desktop.jpg);
     background-size: cover;
     background-repeat: no-repeat;

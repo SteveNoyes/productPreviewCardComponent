@@ -22,7 +22,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+Mobile Screenshot
+
+![](./img/mobileScreenshot.png)
+
+Desktop Screenshot
+
+![](./img/desktopScreenshot.png)
 
 ### Links
 
@@ -115,15 +121,15 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ### Useful resources
 
-- [The Markdown Guide](https://www.markdownguide.org/) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
+- [The Markdown Guide](https://www.markdownguide.org/) - This helped me write this page. I don't know a lot about the language but I love the presentation of code that Markdown has. 
 
-- [Reset CSS](https://meyerweb.com/eric/tools/css/reset/) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
+- [Reset CSS](https://meyerweb.com/eric/tools/css/reset/) - I use this for most projects to start with a 'clean' area to build.  
 
-- [Stick to Bottom](https://dev.to/nehalahmadkhan/how-to-make-footer-stick-to-bottom-of-web-page-3i14) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
+- [Stick to Bottom](https://dev.to/nehalahmadkhan/how-to-make-footer-stick-to-bottom-of-web-page-3i14) - I remeber using this for a footer. Just wanted the attribution section at the bottom.
 
-- [Text & Word Spacing](https://www.w3schools.com/css/css_text_spacing.asp) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
+- [Text & Word Spacing](https://www.w3schools.com/css/css_text_spacing.asp) - Still didn't get this pixel perfect.
 
-- [Changing Image at Media Query](https://stackoverflow.com/questions/2182716/is-it-possible-to-set-the-equivalent-of-a-src-attribute-of-an-img-tag-in-css) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
+- [Changing Image at Media Query](https://stackoverflow.com/questions/2182716/is-it-possible-to-set-the-equivalent-of-a-src-attribute-of-an-img-tag-in-css) - Changing at media query was the hardest part. I ended up copying everything and remaking it desktop first and then merged the two. 
 
 ## Author
 
