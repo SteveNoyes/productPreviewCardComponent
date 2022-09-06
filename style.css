@@ -133,7 +133,7 @@ button:hover {
 }
 
 /* Mobile: 375px - Desktop: 1440px */
-/* @media (min-width: 1440px) {
+@media (min-width: 1440px) {
 
   .container {
     display: flex;
@@ -147,13 +147,12 @@ button:hover {
   }
 
   .image-div {
-    width: 100%;
+  
     background-image: url(../img/image-product-mobile.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+  
   }
   
   .text-wrapper {
     margin: 2rem;
   }
-} */
+}
