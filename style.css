@@ -124,7 +124,6 @@ button:hover {
 }
 
 .attribution {
-  margin-top: auto;
   font-size: 10px;
 }
 
@@ -141,6 +140,7 @@ button:hover {
     max-width: 800px;
     background-color: var(--neutral-white);
     border-radius: 15px;
+    margin-top: 8rem;
   }
 
   .image-div {
