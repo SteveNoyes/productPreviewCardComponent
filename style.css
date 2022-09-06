@@ -1,3 +1,6 @@
+/* ------------ Fonts --------------- */
+/* Fraunces 700, Montserrat 500 700 */
+
 /* Colors */
 
 :root {
@@ -9,9 +12,6 @@
   --neutral-white: hsl(0, 0%, 100%);
 }
 
-/* Fonts */
-/* font-family: 'Fraunces', serif; 700
-font-family: 'Montserrat', sans-serif; 500 700 */
 body {
   font-size: 14px;
   background-color: var(--primary-cream);
@@ -33,18 +33,14 @@ body {
 }
 
 .image-div {
-  height: 200px;
+  height: 300px;
   width: 100%;
-  background-image: url(img/image-product-mobile.jpg);
+  background-image: url(/img/image-product-mobile.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-}
-
-/* .perfume-image {
-  width: 100%;
   border-radius: 15px 15px 0 0;
-} */
+}
 
 .text-wrapper {
   margin: 2rem;
@@ -133,6 +129,7 @@ button:hover {
 }
 
 /* Mobile: 375px - Desktop: 1440px */
+
 @media (min-width: 1440px) {
 
   .container {
@@ -140,19 +137,25 @@ button:hover {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    width: 40%;
-    margin: 4rem auto 0;
+    margin: auto;
+    max-width: 600px;
     background-color: var(--neutral-white);
     border-radius: 15px;
   }
 
   .image-div {
-  
-    background-image: url(../img/image-product-mobile.jpg);
-  
+    height: 545px;
+    width: 400px;
+    background-image: url(/img/image-product-desktop.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 15px 0 0 15px;
   }
   
   .text-wrapper {
-    margin: 2rem;
+    height: auto;
+    width: 400px;
   }
+
 }
